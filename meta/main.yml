@@ -5,6 +5,7 @@ galaxy_info:
   author: shestera
   description: Docker for Linux.
   license: "license (BSD, MIT)"
+  role_name: docker
   min_ansible_version: 2.4
   platforms:
     - name: EL
