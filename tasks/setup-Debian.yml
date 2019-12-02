@@ -14,6 +14,8 @@
     name:
       - apt-transport-https
       - ca-certificates
+      - gnupg-agent
+      - zfsutils-linux
     state: present
 
 - name: Add Docker apt key.

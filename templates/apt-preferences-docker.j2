@@ -1,7 +1,7 @@
-Package: {{ docker_package }}
+Package: docker-{{ docker_edition }}
 Pin: version {{ docker_apt_version }}.*
 Pin-Priority: 1000
 
-Package: {{ docker_package }}-cli
+Package: docker-{{ docker_edition }}-cli
 Pin: version {{ docker_apt_version }}.*
 Pin-Priority: 1000
